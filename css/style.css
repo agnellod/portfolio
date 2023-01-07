@@ -166,3 +166,6 @@ footer div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+.content-box:hover {
+    background-color: #ecf0f1;
+}
