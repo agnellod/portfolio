@@ -8,5 +8,5 @@
 - Also the responsive layout was a challenge in itself
 ## Mock-up
 - [My portfolio link](https://agnellod.github.io/portfolio/)
-![Screenshot 2023-01-09 103838](https://user-images.githubusercontent.com/119445300/211375153-0b3c5c4a-2dc0-4146-a351-072d780cb4c9.jpg)
+![screencapture-file-C-Users-Agnel-portfolio-index-html-2023-01-09-11_06_48](https://user-images.githubusercontent.com/119445300/211377312-12c4b1c7-c4d4-43a6-9fa8-2703af60d73f.png)
 
