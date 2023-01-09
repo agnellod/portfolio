@@ -35,29 +35,37 @@ header nav ul li {
     margin-left: 25px;
 }
 
-main{
-    width: 75%;
-    margin-left: 150px;
-   
-    
-}
-
 .section-main {
    text-align: center;
    margin: 10px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f1efef;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.section-main h2 {
+    margin-right: 25px;
+    height: 250px;
+    font-size: 60px;
+    text-decoration: underline; 
+    border-right: 4px solid #04b2f7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .content-box {
     width: 1000px;
     padding: 25px;
-    margin: 10px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .content-box-about {
@@ -65,74 +73,74 @@ main{
     color: black;
     border-style: solid;
     border-color: #04b2f7;
+    border-width: 5px;
+    font-size: 20px;
+    width: 900px;
+    padding: 25px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .content-box-work {
     height: 500px;
     width:99%;
-    background-image: url(./images/Copy\ of\ Dylan_Agnello_PDCV1_CERT.jpg);
-    background-size: cover;
-    background-position: 50%;
     position: relative;
     margin: 5px;
-    border-style: solid;
-  border-color: #04b2f7;
+ 
+}
+.content-box-work2 {
+    width:99%;
+    position: relative;
+    margin: 5px;
+    margin-bottom: 10px;
+    top: -20px;
+}
+.content-box-work2 a {
+    background-color: #04b2f7;
+    color: black;
+    width: 150px;
+    position: relative;
+    top: 135px;
+    left: -425px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content-box img {
+    background-size: 0;
 }
 
 .content-box-work p {
     background-color: #04b2f7;
-    color: black;
+    color: rgb(7, 7, 7);
     width: 200px;
     position: absolute;
-    justify-content: center;
-    bottom: 0;
-    left: 0;
-}
-
-.content-box-1half {
-    background-color: #04b2f7;
-    width: 47.5%;
-    margin: 10px;
-    background-image: url(./images/20220303_HV_Blue_014_Featured-Content-AND-Sliding-Cards-AND-Container-Long-Amount.jpg);
-  height: 300px;
-  background-size: cover;
-  border-style: solid;
-  border-color: #04b2f7;
+    bottom: 10px;
+    font-size: 20px;
 }
 
 .content-box-1half p {
     background-color: #04b2f7;
     color: black;
-    width: 150px;
+    width: 200px;
     position: relative;
-    top: 250px;
-}
-
-.content-box-2half {
-    background-color: #04b2f7;
-    width: 47.5%;
-    margin: 10px;
-    height: 300px;
-    background-image: url(./images/6a3f2e1c53291488b03b3d8d3a29a315.jpg);
-    background-size: cover;
-    background-position: 50%;
-    border-style: solid;
-  border-color: #04b2f7;
+    justify-content: center;
+    bottom: 70px;
+    left: 0;
+    font-size: 20px;
 }
 
 .content-box-2half p {
-    background-color: #04b2f7;
-    color: black;
-    width: 150px;
-    position: relative;
-    top: 250px;
-}
-
-.section-main h2 {
-    margin-right: 0%;
-    height: 10%;
-    font-size: 50px;
-    text-decoration: underline; 
+   background-color: #04b2f7;
+color: black;
+width: 150px;
+position: relative;
+bottom: 70px;
+left: 0;
+font-size: 20px;
 }
 
 a {
@@ -148,24 +156,25 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fcfbfa;
     background-image: url(./images/pngtree-connection-technologies-background-tech-visual-for-energy-template-image_438844.jpg);
-    background-size: contain;
-    background-position: 100%;
+    text-align: center;
+    background-position: center;
 }
-footer h2 {
-    display: inline-block;
-    font-size: 60px;
+.contact {
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+ width:1000px;
+ padding-top: 180px;
+ font-size: 30px;
 }
-footer div {
-    padding-top: 15px;
-    margin-right: 20px;
+#contact-info {
+    display: flex;
+    justify-content: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
 }
-
-footer div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-.content-box:hover {
-    background-color: #ecf0f1;
+#contact-info h2 {
+    color: white;
+    font-size: 60px;
+    text-decoration: underline; 
+    padding: 20px;
 }
