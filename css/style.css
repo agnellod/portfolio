@@ -49,7 +49,7 @@ header nav ul li {
 }
 /* this targets all h2's in section mian class */
 .section-main h2 {
-    margin-right: 25px;
+    margin-right: 50px;
     height: 250px;
     font-size: 60px;
     text-decoration: underline; 
